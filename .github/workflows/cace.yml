@@ -11,7 +11,7 @@ on:
 
 jobs:
   run-cace:
-    runs-on: ubuntu-22.04
+    runs-on: [self-hosted, linux, x64]
     name: Run CACE
     timeout-minutes: 60
     steps:
